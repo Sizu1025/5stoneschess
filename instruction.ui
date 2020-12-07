@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>instruction</class>
+ <widget class="QDialog" name="instruction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230, 166, 4);
+background-image: url(:/back/timg.jpg);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;隶书&quot;;
+background-image: url(:/back/timg.jpg);
+color: rgb(88, 88, 88);</string>
+   </property>
+   <property name="text">
+    <string>游戏说明</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnbtn">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>711</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(50, 50, 50);
+font: 14pt &quot;方正舒体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>（1）对局双方各执一色棋子。
+（2）空棋盘开局。
+（3）白先、黑后，交替下子，每次只能下一子。
+（4）白方的第一枚棋子可下在棋盘任意交叉点上。（5）具有悔棋功能，可返回上一步棋局
+（5）具有保存棋局功能，可保存至本地文件夹
+（6）具有保存排行榜功能，可保存至本地文件夹。
+（7）具有悔棋功能，可进行一步悔棋。
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

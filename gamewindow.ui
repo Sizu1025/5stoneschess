@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gamewindow</class>
+ <widget class="QDialog" name="gamewindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/back/timg.jpg);</string>
+  </property>
+  <widget class="QPushButton" name="returnmainbtn">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>590</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startagain">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>540</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>重新开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="regret">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>490</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>悔棋</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveboard">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>340</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>保存棋局</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rankinglist">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>440</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>查看黑方获胜次数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rankinglist_2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>390</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;隶书&quot;;
+background-image: url(:/back/dfghj.jpg);
+background-color: rgb(57, 57, 57);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>查看白方获胜次数</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
